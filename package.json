@@ -51,6 +51,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hxy91819/openclaw-tencent-provider"
+    "url": "git+https://github.com/hxy91819/openclaw-tencent-provider.git"
   }
 }
