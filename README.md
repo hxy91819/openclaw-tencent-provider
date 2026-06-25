@@ -7,7 +7,7 @@ runtime id `tencent-test` so ClawHub testing does not claim the official
 ## Install
 
 ```sh
-openclaw plugins install clawhub:openclaw-tencent-provider
+openclaw plugins install clawhub:openclaw-tencent-test-provider
 ```
 
 ## Docs
