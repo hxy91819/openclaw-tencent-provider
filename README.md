@@ -1,6 +1,8 @@
-# Tencent Cloud OpenClaw provider
+# Tencent Cloud OpenClaw provider test package
 
-Official OpenClaw provider plugin for Tencent Cloud.
+Rehearsal OpenClaw provider plugin for Tencent Cloud. This package uses plugin
+runtime id `tencent-test` so ClawHub testing does not claim the official
+`tencent` runtime id.
 
 ## Install
 

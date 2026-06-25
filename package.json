@@ -1,7 +1,7 @@
 {
   "name": "openclaw-tencent-provider",
-  "version": "2026.6.11",
-  "description": "OpenClaw Tencent Cloud provider plugin (TokenHub + Token Plan)",
+  "version": "2026.6.12",
+  "description": "OpenClaw Tencent Cloud provider plugin rehearsal package (TokenHub + Token Plan)",
   "type": "module",
   "license": "MIT",
   "main": "./dist/index.js",
@@ -39,7 +39,7 @@
       "clawhubSpec": "clawhub:openclaw-tencent-provider",
       "npmSpec": "openclaw-tencent-provider",
       "defaultChoice": "clawhub",
-      "minHostVersion": ">=2026.5.28"
+      "minHostVersion": ">=2026.6.10"
     },
     "compat": {
       "pluginApi": ">=2026.5.28"
