@@ -17,7 +17,10 @@
   ],
   "scripts": {
     "build": "node -e \"require('node:fs').rmSync('dist', { recursive: true, force: true })\" && tsc -p tsconfig.json",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "release:dry-run": "scripts/publish.sh",
+    "release:clawhub": "scripts/publish.sh --target clawhub --publish",
+    "release:npm": "scripts/publish.sh --target npm --publish"
   },
   "devDependencies": {
     "openclaw": "2026.6.10",
